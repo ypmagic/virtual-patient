@@ -1,0 +1,100 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Website container */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Left info sidebar */
+
+.left-bar {
+  width: 33vh;
+  height: calc(100% - 40px);
+  margin-top: 40px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.patient-picture {
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+/* Main content box */
+
+.main-content {
+  width: 66%;
+  height: inherit;
+  display: inline-block;
+}
+
+/* Tabs */
+
+.navigation {
+  /*display: flex;*/
+  width: 70%;
+  /*flex-direction: row;
+  justify-content: space-evenly;*/
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+input {
+  display: none;
+}
+
+.tabs {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+#tab1:checked ~ #inbox,
+#tab2:checked ~ #history,
+#tab3:checked ~ #physical,
+#tab4:checked ~ #office-procedure,
+#tab5:checked ~ #investigate {
+  display: block;
+}
