@@ -30,7 +30,7 @@ p {
 /* Left info sidebar */
 
 .left-bar {
-  width: 33vh;
+  width: 24%;
   height: calc(100% - 40px);
   margin-top: 40px;
   margin-left: 20px;
@@ -42,11 +42,19 @@ p {
   margin: 10px auto 10px auto;
 }
 
+.patient-bio {
+  margin: 0 auto;
+}
+
+.patient-details {
+  margin-left: 10px;
+  line-height: 30px;
+}
+
 /* Main content box */
 
 .main-content {
-  width: 66%;
-  height: inherit;
+  width: 74%;
   display: inline-block;
 }
 
@@ -77,7 +85,7 @@ label:hover {
 input:checked + label {
   color: #555;
   border: 1px solid #ddd;
-  border-top: 2px solid orange;
+  border-top: 2px solid #000;
   border-bottom: 1px solid #fff;
 }
 
