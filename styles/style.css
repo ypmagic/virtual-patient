@@ -33,7 +33,7 @@ p {
 .left-bar {
   width: 24%;
   height: calc(100% - 40px);
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 20px;
   display: inline-block;
 }
@@ -108,3 +108,5 @@ input {
   padding: 20px 0 0;
   border-top: 1px solid #ddd;
 }
+
+/* Office Visit Selector */
