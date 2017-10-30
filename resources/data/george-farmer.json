@@ -1,0 +1,45 @@
+{
+  "name": "George Farmer",
+  "age": 33,
+  "sex": "male",
+  "marital": "married",
+  "race": "White/Anglo-Saxon",
+  "education": "Completed high school",
+  "occupation": "Farmer",
+  "visits": [
+    {
+      "inbox": null,
+      "history": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "74 mmHg",
+          "pulses": "80 /mn",
+          "height": "178 cm",
+          "weight": "80 kg",
+          "temperature": "37.2 °C"
+        },
+        "examination": "ea commodo consequat. Duis aute irure dolor in"
+      },
+      "procedures": "voluptate velit esse cillum dolore eu",
+      "investigate": null
+    },
+    {
+      "inbox": null,
+      "history": "Mr. Farmer reports that his leg has gotten much better since his last visit. He took the antibiotics without any problem and kept his leg elevated and applied hot compresses for several days until it had improved considerably. He has resumed his full work schedule and does not have any difficulty walking or doing his job. His major concern now is that he is behind in his work by several days and doesn't know how he'll catch up. He reports that the farm has not been doing well financially and he is quite despondent about that. He fears that he will have to sell the farm.",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "72 mmHg",
+          "pulses": "76 /mn",
+          "height": "178 cm",
+          "weight": "79 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "ea commodo consequat. Duis aute irure dolor in"
+      },
+      "procedures": "voluptate velit esse cillum dolore eu",
+      "investigate": null
+    }
+  ]
+}

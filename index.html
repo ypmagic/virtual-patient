@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="styles/style.css">
     <title>Virtual Patient Viewer</title>
   </head>
@@ -52,11 +53,20 @@
       </div>
 
       <div class="main-content">
+        <div class="patient-select">
+          <span>Select a patient: </span>
+          <select class="patients">
+            <option value="george-farmer">George Farmer</option>
+            <option value="anabela-faria">Anabela Faria</option>
+            <option value="manuel-faria">Manuel Faria</option>
+          </select>
+        </div>
+
         <div class="office-visits">
-          <span>Events:</span>
-          <select class="" name="">
-            <option value="one">Office Visit #1</option>
-            <option value="two">Office Visit #2</option>
+          <span>Events: </span>
+          <select class="events">
+            <option value="1">Office Visit #1</option>
+            <option value="2">Office Visit #2</option>
           </select>
         </div>
 
