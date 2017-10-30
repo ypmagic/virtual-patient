@@ -1,0 +1,45 @@
+{
+  "name": "Anabel Faria",
+  "age": 80,
+  "sex": "Female",
+  "marital": "Married",
+  "race": "White/Portuguese",
+  "education": "Grade school",
+  "occupation": "Retired housekeeper",
+  "visits": [
+    {
+      "inbox": null,
+      "history": "<p><b>Chief Complaint</b>: Headache</p> <p><b>History of Present Illness</b>: Her husband reports that the patient fell a couple of weeks ago at home.  Although she insisted she was all right at the time, and refused to go to the hospital emergency department, he noticed the next day that she had a bruise on the left side of her head in the front. For the past week, she has been increasingly difficult to awaken in the morning, and her usual meticulous housekeeping has declined.  In fact, for the first time in their marriage, he has been doing some cooking.  She began to complain of headache this week, and she has been sleeping more than usual. Her husband is very worried about her and he insisted that she be seen. When asked, the patient agrees that she has a bad headache on the left side, which is where her bruise is. Her husband states that she did not lose consciousness after the fall, and she does not complain of nausea or vomiting.  When asked about his wife's fall, he said that she had begun falling occasionally (less than once a month), about a year ago with no obvious cause.  She had not sustained any injuries in the past.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "130 mmHg",
+          "diastolic": "78 mmHg",
+          "pulses": "72 /mn",
+          "height": "157 cm",
+          "weight": "61 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "Patient is sitting quietly, appearing somnolent and occasionally groaning softly. Though she responds to her name and will answer questions about her state of health, usually with a yes or no, she cannot draw a clock face and cannot cooperate with a formal mental status examination. A resolving bruise is obvious on the upper temporal forehead and scalp on the left. Pupils are equal and reactive, optic discs are sharp and no hemorrhages evident. Cranial nerve examination is incomplete due to limited responsiveness and cooperation, but no gross defects are noted in eye movements or facial expression. There is definite right upper extremity weakness and hyperreflexia on the right side. The plantar response is equivocal on the right. Patient stands, but with support from her husband, and tends to fall to the right. Romberg test could not be performed."
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "inbox": null,
+      "history": "<p><b>Chief Complaint</b>: Memory problems</p>\n<p><b>History of Present Illness</b>: Her husband reports that the patient initially improved after surgery, but doesn't seem to have returned to her previous capacities before the fall and hospitalization.  Although he had noticed occasional forgetfulness before the fall, he thought it was nothing more than getting older. She would often misplace things, but usually find them after searching.  She was driving without accidents, and always kept the car keys on their hook by the front door.  She never misidentified the children or grandchildren. He thinks she is more forgetful now.  He sometimes has had to help her find misplaced clothing and papers. He finds her driving less secure, and she has lost one set of car keys.  Most concerning to him is that she has confused two of her grandchildren's names, and became agitated when confronted with the problem.  He also reports that she has lost interest in their intimate life together.  She has rejected his initiation of cuddling and touching, something that in the past they both took comfort and pleasure in. The patient says her memory isn't what it used to be, but scoffs at her husband's concerns. She says he forgets things, too. She agrees that maybe the accident and surgery worsened things for a while, but she thinks things are okay now and will continue to get better.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "128 mmHg",
+          "diastolic": "76 mmHg",
+          "pulses": "76 /mn",
+          "height": "157 cm",
+          "weight": "61 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "Patient is awake, alert, attentive, and cooperative. Her attire and grooming are appropriate. Her Folstein MMSE score is 23. She could not correctly name the day of the week or date, but did know the month and year. She knew where she was. Her speech was fluent and appropriate. She was able to follow commands correctly. She could not do serial 7s, nor spell world backwards. Cranial nerves are intact. Reflexes are normal and equal bilaterally. Romberg is negative, Plantar responses are normal. Muscle strength is normal and equal bilaterally. Pupils equal and reactive, no papilledema, optic discs sharp, no exudates, hemorrhages. Carotid pulses equal, no bruits. Heart and lungs are normal."
+      },
+      "procedures": "Geriatric Depression Scale 2/15",
+      "investigate": null
+    }
+  ]
+}

@@ -1,8 +1,18 @@
+//--------- INSTANCE VARIABLES ------------------
 var currentPatient = {};
-var selector = document.querySelector(".events"); // change office visits/events
-selector.addEventListener("change", function() {
-  replaceData();
-})
+loadJSON("georgefarmer")
+var currentEvent = "";
+var eventSelector = document.querySelector(".events"); // change office visits/events
+eventSelector.addEventListener("change", function() {
+  currentEvent = eventSelector.options[eventSelector.selectedIndex].value;
+  replaceData(currentEvent);
+});
+var patientSelector = document.querySelector(".patients"); // change patients
+patientSelector.addEventListener("change", function() {
+  var patientValue = patientSelector.options[patientSelector.selectedIndex].value;
+  loadJSON(patientValue);
+});
+//-----------------------------------------------
 
 // this function could be much more eloquent (works)
 function addTabs() {
@@ -25,18 +35,17 @@ function addTabs() {
     });
   }
 }
+addTabs();
 
-function loadJSON() {
+function loadJSON(name) {
   // get example JSON file
-  $.getJSON("resources/data/george-farmer.json", (data) => {
-    console.log(data);
+  $.getJSON("resources/data/" + name + ".json", (data) => {
     currentPatient = data;
+    changePatient(name);
   });
 }
 
-function replaceData() {
-  // get current event from selector
-  var currentEvent = selector.options[selector.selectedIndex].value;
+function replaceData(currentEvent) {
   // get the relevant office data from JSON
   var data = currentPatient["visits"][parseInt(currentEvent)-1];
   // replace inner HTML with new data
@@ -47,10 +56,23 @@ function replaceData() {
   // physical
   document.querySelector("#tab3-text").innerHTML = data["physical"]["examination"];
   // office procedures
-  document.querySelector("#tab1-text").innerHTML = data["procedures"];
+  document.querySelector("#tab4-text").innerHTML = data["procedures"];
   // investigate
-  document.querySelector("#tab1-text").innerHTML = data["investigate"];
+  document.querySelector("#tab5-text").innerHTML = data["investigate"];
 }
 
-loadJSON();
-addTabs();
+function changePatient(name) {
+  // change image
+  var image = document.querySelector(".patient-picture");
+  image.src = "resources/images/" + name + "/" + name + ".jpg";
+  // get the table of patient bio and change
+  var bio = document.querySelectorAll(".info");
+  bio[0].innerHTML = currentPatient["name"];
+  bio[1].innerHTML = currentPatient["age"];
+  bio[2].innerHTML = currentPatient["sex"];
+  bio[3].innerHTML = currentPatient["marital"];
+  bio[4].innerHTML = currentPatient["race"];
+  bio[5].innerHTML = currentPatient["education"];
+  bio[6].innerHTML = currentPatient["occupation"];
+  replaceData("1");
+}
