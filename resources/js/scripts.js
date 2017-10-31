@@ -72,7 +72,7 @@ function changePatient(name) {
   for (var i = 0; i < visitsFromJSON.length; i++) {
     events.innerHTML = events.innerHTML + "<option value=" + visitsFromJSON[i]["id"] + ">" + visitsFromJSON[i]["name"] + "</option>";
   }
-  // change to default
+  // change to first event
   replaceData(0);
 }
 
