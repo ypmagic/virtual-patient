@@ -1,6 +1,5 @@
 //--------- INSTANCE VARIABLES ------------------
 var currentPatient = {};
-loadJSON("georgefarmer")
 var currentEvent = "";
 var eventSelector = document.querySelector(".events"); // change office visits/events
 eventSelector.addEventListener("change", function() {
@@ -37,6 +36,11 @@ function addTabs() {
 }
 addTabs();
 
+/*
+Purpose: Retrieves JSON file according to the selected value of the patient
+
+Passes patient JSON to instance variable currentPatient and calls changePatient.
+*/
 function loadJSON(name) {
   // get example JSON file
   $.getJSON("resources/data/" + name + ".json", (data) => {
@@ -45,22 +49,9 @@ function loadJSON(name) {
   });
 }
 
-function replaceData(currentEvent) {
-  // get the relevant office data from JSON
-  var data = currentPatient["visits"][parseInt(currentEvent)-1];
-  // replace inner HTML with new data
-  // inbox
-  document.querySelector("#tab1-text").innerHTML = data["inbox"];
-  // history
-  document.querySelector("#tab2-text").innerHTML = data["history"];
-  // physical
-  document.querySelector("#tab3-text").innerHTML = data["physical"]["examination"];
-  // office procedures
-  document.querySelector("#tab4-text").innerHTML = data["procedures"];
-  // investigate
-  document.querySelector("#tab5-text").innerHTML = data["investigate"];
-}
-
+/*
+Purpose: Changes the patient being displayed.
+*/
 function changePatient(name) {
   // change image
   var image = document.querySelector(".patient-picture");
@@ -74,5 +65,35 @@ function changePatient(name) {
   bio[4].innerHTML = currentPatient["race"];
   bio[5].innerHTML = currentPatient["education"];
   bio[6].innerHTML = currentPatient["occupation"];
-  replaceData("1");
+  // populate event selection from json
+  var events = document.querySelector(".events");
+  events.innerHTML = "";
+  var visitsFromJSON = currentPatient["visits"]; // an array of office visits
+  for (var i = 0; i < visitsFromJSON.length; i++) {
+    events.innerHTML = events.innerHTML + "<option value=" + visitsFromJSON[i]["id"] + ">" + visitsFromJSON[i]["name"] + "</option>";
+  }
+  // change to default
+  replaceData(0);
 }
+
+/*
+Purpose: Changes the event currently being displayed.
+*/
+function replaceData(currentEvent) {
+  // get the relevant office data from JSON
+  var data = currentPatient["visits"][currentEvent];
+  // replace inner HTML with new data
+  // inbox
+  document.querySelector("#tab1-text").innerHTML = data["inbox"];
+  // history
+  document.querySelector("#tab2-text").innerHTML = data["history"];
+  // physical
+  document.querySelector("#tab3-text").innerHTML = data["physical"]["examination"];
+  // office procedures
+  document.querySelector("#tab4-text").innerHTML = data["procedures"];
+  // investigate
+  document.querySelector("#tab5-text").innerHTML = data["investigate"];
+}
+
+// FIRST TIME LOAD
+loadJSON("georgefarmer");

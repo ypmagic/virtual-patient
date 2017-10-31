@@ -1,13 +1,15 @@
 {
   "name": "George Farmer",
   "age": 33,
-  "sex": "male",
-  "marital": "married",
+  "sex": "Male",
+  "marital": "Married",
   "race": "White/Anglo-Saxon",
   "education": "Completed high school",
   "occupation": "Farmer",
   "visits": [
     {
+      "id": 0,
+      "name": "Office Visit #1",
       "inbox": null,
       "history": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "physical": {
@@ -25,6 +27,8 @@
       "investigate": null
     },
     {
+      "id": 1,
+      "name": "Office Visit #2",
       "inbox": null,
       "history": "Mr. Farmer reports that his leg has gotten much better since his last visit. He took the antibiotics without any problem and kept his leg elevated and applied hot compresses for several days until it had improved considerably. He has resumed his full work schedule and does not have any difficulty walking or doing his job. His major concern now is that he is behind in his work by several days and doesn't know how he'll catch up. He reports that the farm has not been doing well financially and he is quite despondent about that. He fears that he will have to sell the farm.",
       "physical": {
@@ -40,6 +44,25 @@
       },
       "procedures": "voluptate velit esse cillum dolore eu",
       "investigate": null
+    },
+    {
+      "id": 2,
+      "name": "Office Visit #3",
+      "inbox": null,
+      "history": "<p><b>Chief Complaint</b>: Follow up depression</p> <p><b>History of Present Illness</b>: Patient reports that he thinks his sleeping problems may have gotten even worse because he's now having trouble getting to sleep as well as getting up early in the morning. He also thinks that the pills he's taking for the depression may be making his appetite worse. He has very little appetite and continues to lose weight. His mood is about the same, he says. Things are better between him and his wife, though. They've been talking more about his concerns about the farm and she has agreed to take over paying the bills and managing the books, at least until he's feeling better. He says that has taken a burden off of him. He says he's not thinking as much about suicide as he had previously and is certainly not contemplating suicide seriously at this point.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "74 mmHg",
+          "pulses": "76 /mn",
+          "height": "178 cm",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": null
+      },
+      "procedures": null,
+      "investigate": "<p><b>Test</b>: Cholesterol</p> <p><b>Result</b>: 165 mg/dL</p> <p><b>Normal Range:</b> <200 mg/dL</p>"
     }
   ]
 }
