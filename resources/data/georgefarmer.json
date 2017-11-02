@@ -11,7 +11,10 @@
       "id": 0,
       "name": "Office Visit #1",
       "inbox": null,
-      "history": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "history": "
+      <p><b>Chief Complaint</b>: Redness and swelling on his lower left leg</p>
+
+      <p><b>History of Present Illness</b>: Three days prior to the visit, Mr. Farmer accidentally punctured his lower left leg on a nail protruding from a fence post that he was mending. There was only a minor amount of bleeding. Mr. Farmer did not do anything about it. The next day it was somewhat painful and a little red, but he generally ignored it. Yesterday it was a little worse. Today, the redness and swelling has increased significantly and it feels quite warm to the touch and is somewhat tender. He also finds it uncomfortable to walk. Reports last booster dose of tetanus-diptheria when he served in the Army 15 years ago and has had none since.</p>",
       "physical": {
         "vitals": {
           "systolic": "120 mmHg",
@@ -21,16 +24,37 @@
           "weight": "80 kg",
           "temperature": "37.2 °C"
         },
-        "examination": "ea commodo consequat. Duis aute irure dolor in"
+        "examination": "<p>A 7-cm in diameter raised, red, and warm area surrounds a punctate wound on the posterior aspect of the left calf. The erythematous lesion is somewhat tender to firm palpation, but not exquisitely so. The lesion is not fluctuant. No pus can be extruded from the puncture wound site. The color of the rest of his skin is good. Small, nontender, inguinal nodes can be appreciated on the left, not the right. </p>"
       },
-      "procedures": "voluptate velit esse cillum dolore eu",
+      "procedures": "
+      <p>No sugar, protein, blood, ketones on office urine dipstick.</p>
+
+      <p>Hematocrit 45.</p>",
       "investigate": null
     },
     {
       "id": 1,
       "name": "Office Visit #2",
       "inbox": null,
-      "history": "Mr. Farmer reports that his leg has gotten much better since his last visit. He took the antibiotics without any problem and kept his leg elevated and applied hot compresses for several days until it had improved considerably. He has resumed his full work schedule and does not have any difficulty walking or doing his job. His major concern now is that he is behind in his work by several days and doesn't know how he'll catch up. He reports that the farm has not been doing well financially and he is quite despondent about that. He fears that he will have to sell the farm.",
+      "history": "
+      <p><b>Chief Complaint:</b> Follow up for cellulitis</p>
+
+      <p><b>History of Present Illness</b>: Mr. Farmer reports that his leg has gotten much better since his last visit. He took the antibiotics without any problem and kept his leg elevated and applied hot compresses for several days until it had improved considerably. He has resumed his full work schedule and does not have any difficulty walking or doing his job. His major concern now is that he is behind in his work by several days and doesn't know how he'll catch up. He reports that the farm has not been doing well financially and he is quite despondent about that. He fears that he will have to sell the farm.</p>
+
+      <p><b>Past Medical History</b>: Patient received the usual childhood vaccinations against measles, rubella, mumps, polio, tetanus, diphtheria, and pertussis. He received a booster dose of tetanus-diptheria-acellular pertussis at his last visit. As a child, he remembers having chickenpox, occasional ear infections, but no other serious illnesses. He considers himself to be very healthy. He has had no previous surgery, serious injuries, hospitalizations. He has no known allergies. He is taking no medications at present. He does not smoke tobacco. He drinks one or two pints of ale at the local bar with friends once or twice a week on a regular basis and will have an occasional beer at home infrequently. However, he has not been to the bar in over a month because he \"didn't feel up to it.\" He will have one or two drinks of whiskey only on rare occasions when he is out to eat at a restaurant or at a social event. He eats a well-rounded diet, but hasn't had much of an appetite and has lost some weight. He doesn't do any exercise other than the farm work, which is quite strenuous.</p>
+
+      <p><b>Family History</b>: Mr. Farmer's two parents are both alive and well. His father, age 58, is still an active farmer and has no serious medical problems. His mother, age 56, is also well. His paternal grandmother, age 82, lives in the farmhouse with his parents. He doesn't know her specific medical problems, but says she is frail. Mr. Farmer has two younger brothers and two younger sisters all of whom are well as far as he knows. His 3 children are all in good health.</p>
+
+      <p><b>Personal and Social History</b>: Mr. Farmer grew up on the farm on which he is now living, which is part of what used to be a larger farm owned by his father and his uncle. He is the only one of his siblings and cousins to go into farming. His uncle retired from farming and his father continues to farm the other 50 acres. His wife, age 30, helps out with the farming and raising their 3 children, age 4, 7, and 10. He describes his financial situation as "not good." He has health insurance through a farmers' cooperative. He has a life insurance policy and says that he sometimes thinks his family would be better off if he were dead and they collected on the insurance and sold the farm.</p>
+
+      <p><b>Review of Systems</b></p>
+
+      <p><b>General</b>: Patient says that this latest episode with his leg is just the latest of a series of setbacks. He's very worried about his farm's financial solvency, which is constantly on his mind. He says that he's worrying himself sick: his appetite has been poor and he thinks he's lost weight in the last few months.</p>
+
+      <p><b>Skin</b>: The puncture wound and cellulitis have nearly completely healed. He has had no rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.</p>
+
+      <p><b>Psychiatric</b>: As noted above, patient is very despondent over the farm situation. He says that he can't see any way out of things and feels quite helpless to turn things around. He feels like a personal failure and feels he has let down his father, especially, not being able to be successful as a farmer. He says that his sleep has been very poor for the last few months. He finds himself awakening at 3 or 4 in the morning and not being able to get back to sleep. He'll get up and start some of the farm work early just to stop thinking about the problems. His appetite has also been poor. His relationship with his wife has deteriorated and he feels that he has been a failure as a husband as well. They have not had sexual relations in more than a month. He thinks his family would be better off if he were dead. He has thought about suicide, but hasn't developed a specific plan or timetable. He denies any hallucinations. He denies any having any previous episodes of feeling so depressed, but says that's because the financial situation has never been so bleak.</p>
+      ",
       "physical": {
         "vitals": {
           "systolic": "120 mmHg",
@@ -40,16 +64,37 @@
           "weight": "79 kg",
           "temperature": "37 °C"
         },
-        "examination": "ea commodo consequat. Duis aute irure dolor in"
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p><b>General Appearance</b>: Well developed, well nourished man looking his stated age. He appears very sullen. At times, he seems on the verge of tears, though he never cried. His appearance is one of inattentiveness to the way he appears, though he is not dirty or disheveled.</p>
+
+        <p><b>Skin</b>: The site of the puncture wound can barely be discerned and only a slight degree of redness is apparent where the cellulitis had been around the wound. The color of the rest of his skin is good. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.</p>
+
+        <p><b>Head</b>: Skull is normal</p>
+
+        <p><b>Eyes</b>: Vision 20/20. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.</p>
+
+        <p><b>Ears</b>: Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.</p>
+
+        <p><b>Nose</b>: Septum midline, no discharge, no polyps. No sinus tenderness.</p>
+
+        <p><b>Mouth and throat</b>: Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils present.</p>"
       },
-      "procedures": "voluptate velit esse cillum dolore eu",
+      "procedures": "
+      <p>Urine dipstick:   No sugar, protein, blood, ketones</p>
+
+      <p>Hematocrit:  45</p>",
       "investigate": null
     },
     {
       "id": 2,
       "name": "Office Visit #3",
       "inbox": null,
-      "history": "<p><b>Chief Complaint</b>: Follow up depression</p> <p><b>History of Present Illness</b>: Patient reports that he thinks his sleeping problems may have gotten even worse because he's now having trouble getting to sleep as well as getting up early in the morning. He also thinks that the pills he's taking for the depression may be making his appetite worse. He has very little appetite and continues to lose weight. His mood is about the same, he says. Things are better between him and his wife, though. They've been talking more about his concerns about the farm and she has agreed to take over paying the bills and managing the books, at least until he's feeling better. He says that has taken a burden off of him. He says he's not thinking as much about suicide as he had previously and is certainly not contemplating suicide seriously at this point.</p>",
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that he thinks his sleeping problems may have gotten even worse because he's now having trouble getting to sleep as well as getting up early in the morning. He also thinks that the pills he's taking for the depression may be making his appetite worse. He has very little appetite and continues to lose weight. His mood is about the same, he says. Things are better between him and his wife, though. They've been talking more about his concerns about the farm and she has agreed to take over paying the bills and managing the books, at least until he's feeling better. He says that has taken a burden off of him. He says he's not thinking as much about suicide as he had previously and is certainly not contemplating suicide seriously at this point.</p>",
       "physical": {
         "vitals": {
           "systolic": "120 mmHg",
@@ -59,10 +104,363 @@
           "weight": "78 kg",
           "temperature": "37 °C"
         },
-        "examination": null
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood continues to be sullen and he continues to perseverate about the hopelessness of the farm's situation and his inability to do anything to make things better.</p>"
       },
       "procedures": null,
-      "investigate": "<p><b>Test</b>: Cholesterol</p> <p><b>Result</b>: 165 mg/dL</p> <p><b>Normal Range:</b> <200 mg/dL</p>"
-    }
+      "investigate": "
+      <p><b>Test</b>: Cholesterol</p>
+
+      <p><b>Result</b>: 165 mg/dL</p>
+
+      <p><b>Normal Range:</b> <200 mg/dL</p>"
+    },
+    {
+      "id": 3,
+      "name": "Office Visit #4",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that he is not having so much trouble getting to sleep with the new medicine. His appetite remains poor, however. He finds it difficult to get through the day. He feels like he's pushing himself to get anything done and he's just not as productive as he used to be. He reports that his wife has taken over all the finances and bookkeeping. She keeps telling him that things aren't so bad, but he knows she's just saying that to make him feel better. Overall, he says things are just about the same. He says that he's not in any danger of suicide.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "72 mmHg",
+          "pulses": "74 /mn",
+          "weight": "78 kg"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood continues to be sullen. His perceptions of financial problems remain fixed and unshakable.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 4,
+      "name": "Office Visit #5",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports feeling frustrated that nothing seems to be getting better. He says that everything is the same as it was last visit, though on further probing, he does admit that he may be sleeping somewhat later in the morning. He now gets up around 5 in the morning, which is later than he previously reported. Otherwise, he says that his appetite remains poor and that he's just forcing himself to eat and that he lacks energy and motivation and \"just goes through the motions\" of getting through the day.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "72 mmHg",
+          "pulses": "74 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood continues to be sad and his affect is flat. His speech is slow and low in tone. He continues to have poor reality testing as far as his farm's financial situation which his wife says is solid and stable, but which he insists is on the verge of bankruptcy.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 5,
+      "name": "Office Visit #6",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that he feels that he is beginning to have more energy and is able to do his work better. His sleeping also seems to be better and he is able to sleep later in the morning. He thinks this extra sleep is what accounts for his additional energy. He reports that he is still very pessimistic about the future and is sure that his wife is just hiding the bad news about the farm's finances from him. Sometimes when he's alone, he bursts out in tears, which he interprets as a sign of his worthlessness as a man--\"strong men don't cry.\" He says that his appetite is better and that he's eating more and maintaining his weight. Suicidal thoughts still occur to him, but he puts them out of his mind.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "70 mmHg",
+          "pulses": "74 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood continues to be sullen, though he seems more energized, responding to questions more quickly and his posture seems less slumped. His perceptions of financial problems remain fixed and unshakable.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 6,
+      "name": "Office Visit #7",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that he is beginning to feel better. He notices that while he can feel quite despondent at times (most of the time, in fact), he also is aware that some of the time he can forget his worries and focus on the here and now. This is especially true when he's working hard with the farm animals. He says that he now thinks the farm's finances aren't quite as dire as he previously thought and is more optimistic that they'll be able to keep the farm going.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "70 mmHg",
+          "pulses": "74 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood is distinctly less sullen. His rate of speech is quicker and there is more modulation in tone and expressiveness. His posture is more upright. He even occasionally smiles.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 7,
+      "name": "Office Visit #8",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that he is feeling much better. He says that for all intents and purposes he is feeling the same as he did before all this started, like he felt a year ago. He reports that his appetite and sleep are back to normal. His wife and he have resumed having sexual relations. His energy levels are back to normal and he has resumed keeping the books, although he is now sharing some of those responsibilities with his wife. He no longer has any suicidal ideation and feels generally embarrassed about the way he acted and looked at things during his period of depression.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "122 mmHg",
+          "diastolic": "68 mmHg",
+          "pulses": "76 /mn",
+          "weight": "79 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood is quite upbeat and positive. He is animated and smiles often and shows signs of a droll sense of humor.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 8,
+      "name": "Office Visit #9",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that everything is fine. He expresses gratitude for the help and says he finds it hard to believe that a person's whole life can be so profoundly altered by depression.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "122 mmHg",
+          "diastolic": "68 mmHg",
+          "pulses": "76 /mn",
+          "weight": "79 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood continues to be quite upbeat and shows essentially no signs of residual depression.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 9,
+      "name": "Office Visit #10",
+      "inbox": "
+      <p><b>Message:</b></p>
+
+      <p>No show for appointment</p>",
+      "history": null,
+      "physical": null,
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 10,
+      "name": "Inbox #1",
+      "inbox": "
+      <p>Intra-office memo from receptionist:</p>
+
+      <p>Called Mr. Farmer about missed appointment. Says that some important things came up and he was feeling fine anyway. Apologizes for not calling to let us know. Appointment has been rescheduled.</p>",
+      "history": null,
+      "physical": null,
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 11,
+      "name": "Office Visit #11",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up depression</p>
+
+      <p><b>History of Present Illness</b>: Patient reports that everything is great. He has been very busy and apologized for missing his last appointment, but he's been working on plans to modernize the farm and expand his market. He's been looking into buying some adjacent land. He reports no depressive symptoms, although he says his sleeping has been less than it was, but that's due to his working late at night on some of his plans. He just feels too awake to go to sleep at his usual bedtime. He does get to sleep by midnight or 1 A.M. Otherwise, he says that things have never been better.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "128 mmHg",
+          "diastolic": "68 mmHg",
+          "pulses": "80 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood actually appears elated. His speech is very rapid and pressured. He quickly goes from one subject to another in rapid succession. He appears somewhat agitated and was pacing the floor when I entered the examination room. When his ideas for improving his farm were probed in detail, they seemed quite grandiose and would require very large amounts of new capital. He believes that ostrich meat is the new trend and wants to convert most of his livestock business to raising ostriches and the food sources for their diet.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 12,
+      "name": "Office Visit #12",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up bipolar disorder (acute mania)</p>
+
+      <p><b>History of Present Illness</b>: George Farmer reports that he is sleeping better and is calmer. He reports no side effects that he is aware of. He has a clearer sense that ostrich meat is too risky a venture, but is still exploring the possibility of buying some additional farm land if the price is right. He is back to a normal sleeping pattern, getting to bed before 11 and generally sleeping 7-8 hours a night.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "68 mmHg",
+          "pulses": "72 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood appears normal. His speech is no longer pressured and he does not exhibit a flight of ideas. He does not appear agitated or restless, though he remains more animated than may be his baseline level.</p>"
+      },
+      "procedures": null,
+      "investigate": null
+    },
+    {
+      "id": 13,
+      "name": "Office Visit #13",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up bipolar disorder (acute mania)</p>
+
+      <p><b>History of Present Illness</b>: Patient complains that he is feeling weaker than usual and is a little unsteady at times. His mood continues to be good; he is not feeling depressed, just not up to his usual ability to work. He describes this more as a weakness rather than fatigue. It's been gradually getting worse over the last week to 10 days.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "118 mmHg",
+          "diastolic": "68 mmHg",
+          "pulses": "70 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood appears normal. Assessment of muscle strength is grossly normal. Romberg test is negative, but patient did sway a bit and was quite apprehensive that he would lose his balance. Gait was normal but patient was a little unsteady walking heel to toe. Deep tendon reflexes 2+.</p>"
+      },
+      "procedures": null,
+      "investigate": "
+      <p><b>Lithium test</b></p>
+
+      <p><b>Test</b>: Lithium</p>
+
+      <p><b>Result</b>: 2.2 mEq/L</p>
+
+      <p><b>Normal Range</b>: 0.8-1.5 mEq/L</p>
+      "
+    },
+    {
+      "id": 14,
+      "name": "Inbox #2",
+      "inbox": "Telephone contact with Mr. Farmer to discuss lab results, which show lithium level back in normal range (1.3 mEq/L). Patient says he's feeling much better; no more muscle weakness, unsteadiness.",
+      "history": null,
+      "physical": null,
+      "procedures": null,
+      "investigate": "
+      <p><b>Lithium test</b></p>
+
+      <p><b>Test</b>: Lithium</p>
+
+      <p><b>Result</b>: 2.2 mEq/L</p>
+
+      <p><b>Normal Range</b>: 0.8-1.5 mEq/L</p>
+      "
+    },
+    {
+      "id": 15,
+      "name": "Office Visit #14",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up bipolar disorder (acute mania)</p>
+
+      <p><b>History of Present Illness</b>: Patient has no complains, feeling well. Taking 600 mg. of lithium at bedtime. His mood is good, sleeping well.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "120 mmHg",
+          "diastolic": "70 mmHg",
+          "pulses": "72 /mn",
+          "weight": "79 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood appears normal. Lithium level 1.0 mEq/L.</p>"
+      },
+      "procedures": null,
+      "investigate": "
+      <p><b>Lithium test</b></p>
+
+      <p><b>Test</b>: Lithium</p>
+
+      <p><b>Result</b>: 1.0 mEq/L</p>
+
+      <p><b>Normal Range</b>: 0.8-1.5 mEq/L</p>
+      "
+    },
+    {
+      "id": 16,
+      "name": "Office Visit #15",
+      "inbox": null,
+      "history": "
+      <p><b>Chief Complaint</b>: Follow up bipolar disorder (acute mania)</p>
+
+      <p><b>History of Present Illness</b>: Patient says he is feeling fine, but is bothered by frequent urination and increased thirst. This is particularly bothersome to him when he's out in the field working and doesn't have water easily available. He takes a big jug of water with him, but he finishes that in an hour or two and it seems like it \"goes right through\" him. He's also having to get up to urinate 4 or 5 times a night. Taking 600 mg. of lithium at bedtime. His mood is good and he's sleeping well except for the frequent need to urinate.</p>",
+      "physical": {
+        "vitals": {
+          "systolic": "116 mmHg",
+          "diastolic": "66 mmHg",
+          "pulses": "78 /mn",
+          "weight": "78 kg",
+          "temperature": "37 °C"
+        },
+        "examination": "
+        <p><b>Physical Examination</b></p>
+
+        <p>Patient's mood appears normal. Lithium level 1.6 mEq/L.</p>"
+      },
+      "procedures": "<p>Urine sample in office has a specific gravity of 1.001, no blood, protein, or sugar.</p>",
+      "investigate": "
+      <p><b>Lithium test</b></p>
+
+      <p><b>Test</b>: Lithium</p>
+
+      <p><b>Result</b>: 1.6 mEq/L</p>
+
+      <p><b>Normal Range</b>: 0.8-1.5 mEq/L</p>
+      "
+    },
+    {
+      "id": 17,
+      "name": "Inbox #2",
+      "inbox": "Telephone contact with Mr. Farmer to discuss lab results, which now show lithium level back in normal range (0.9 mEq/L). Patient says he's been keeping up fluids more conscientiously and has noticed some improvement in the frequency of urination, especially at night. He's now getting up only once or twice to urinate. Otherwise feeling fine.",
+      "history": null,
+      "physical": null,
+      "procedures": null,
+      "investigate": "
+      <p><b>Lithium test</b></p>
+
+      <p><b>Test</b>: Lithium</p>
+
+      <p><b>Result</b>: 0.9 mEq/L</p>
+
+      <p><b>Normal Range</b>: 0.8-1.5 mEq/L</p>
+      "
+    },
   ]
 }
