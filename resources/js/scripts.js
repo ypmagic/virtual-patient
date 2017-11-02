@@ -82,17 +82,70 @@ Purpose: Changes the event currently being displayed.
 function replaceData(currentEvent) {
   // get the relevant office data from JSON
   var data = currentPatient["visits"][currentEvent];
+  // enable all radios
+  document.getElementById("tab1").disabled = false;
+  document.getElementById("tab2").disabled = false;
+  document.getElementById("tab3").disabled = false;
+  document.getElementById("tab4").disabled = false;
+  document.getElementById("tab5").disabled = false;
+
+  document.getElementById("tab1").checked = false;
+  document.getElementById("tab2").checked = false;
+  document.getElementById("tab3").checked = false;
+  document.getElementById("tab4").checked = false;
+  document.getElementById("tab5").checked = false;
   // replace inner HTML with new data
   // inbox
-  document.querySelector("#tab1-text").innerHTML = data["inbox"];
+  var flag = false;
+  if (data["inbox"] == null) {
+    document.getElementById("tab1").disabled = true;
+  } else {
+    document.querySelector("#tab1-text").innerHTML = data["inbox"];
+    if (!flag) {
+      document.getElementById("tab1").checked = true;
+      flag = true;
+    }
+  }
   // history
-  document.querySelector("#tab2-text").innerHTML = data["history"];
+  if (data["history"] == null) {
+    document.getElementById("tab2").disabled = true;
+  } else {
+    document.querySelector("#tab2-text").innerHTML = data["history"];
+    if (!flag) {
+      document.getElementById("tab2").checked = true;
+      flag = true;
+    }
+  }
   // physical
-  document.querySelector("#tab3-text").innerHTML = data["physical"]["examination"];
+  if (data["physical"] == null || data["physical"]["examination"] == null) {
+    document.getElementById("tab3").disabled = true;
+  } else {
+    document.querySelector("#tab3-text").innerHTML = data["physical"]["examination"];
+    if (!flag) {
+      document.getElementById("tab3").checked = true;
+      flag = true;
+    }
+  }
   // office procedures
-  document.querySelector("#tab4-text").innerHTML = data["procedures"];
+  if (data["procedures"] == null) {
+    document.getElementById("tab4").disabled = true;
+  } else {
+    document.querySelector("#tab4-text").innerHTML = data["procedures"];
+    if (!flag) {
+      document.getElementById("tab4").checked = true;
+      flag = true;
+    }
+  }
   // investigate
-  document.querySelector("#tab5-text").innerHTML = data["investigate"];
+  if (data["investigate"] == null) {
+    document.getElementById("tab5").disabled = true;
+  } else {
+    document.querySelector("#tab5-text").innerHTML = data["investigate"];
+    if (!flag) {
+      document.getElementById("tab5").checked = true;
+      flag = true;
+    }
+  }
 }
 
 // FIRST TIME LOAD
